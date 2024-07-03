@@ -19,7 +19,7 @@ mongoose.connect(uri, {
 });
 
 // Allow requests from specific origins with credentials
-const allowedOrigins = ['http://localhost:3000']; // Add other origins as needed
+const allowedOrigins = ['https://task-wise-main.vercel.app/']; // Add other origins as needed
 
 // CORS middleware configuration
 const corsOptions = {
